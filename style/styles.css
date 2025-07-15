@@ -1,0 +1,242 @@
+.risque-regular {
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sorts-mill goudy-regular {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.sorts-mill goudy-regular-italic {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.offcanvas-title {
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.orbitron-uniquifier> {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Sorts Mill Goudy';
+    font-weight: 400;
+    margin: 0px;
+}
+
+p, li, .search-input {
+    font-family: 'Orbitron';
+    font-weight: 800;
+}
+
+.pStyle {
+    margin-top: 15px;
+}
+
+.weatherImgStyle {
+    margin-top: 20px;
+}
+li {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("../imgs/mainBG.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.search-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+} 
+
+.search-input {
+    width: 400px;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 12px 0 0 12px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #FFF9C8; 
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 0 12px 12px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-image: url('../imgs/MagnifyingGlass.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px; 
+    height: 40px; 
+}
+
+.currentCity {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.currentWeather {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(182, 237, 255, 0.9);
+    border-radius: 10px;
+}
+
+.temperatureDisplay {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(182, 237, 255, 0.9); 
+    border-radius: 10px;
+}
+
+.forecastDisplay {
+    width: 295px;
+    height: 305px;
+    background-color: rgba(182, 237, 255, 0.9); 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.colStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.currentTempDiv{
+    text-align: center;
+    
+}
+
+
+#currentTempDisplay {
+    font-size: 100px;
+}
+
+.currentTempImgDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; 
+    height: 150px; 
+}
+
+.currentTempImgDisplay img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+.favBtn{
+    cursor: pointer;
+    background-image: url('../imgs/heart_filled.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent; 
+    border: none;
+    background-size: 50px 50px; 
+    height: 50px; 
+    width: 50px; 
+}
+
+.favorited {
+    background-image: url('../imgs/heart_filled.png');
+}
+
+.not-favorited {
+    background-image: url('../imgs/heart.png');
+}
+
+.temperatureDisplay{
+    text-align: center;
+}
+
+.forecastDisplay p {
+    font-size: 48px;
+}
+
+.Favorite {
+    display: flex;
+    justify-content: center;
+}
+
+.favoriteBtn {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 25px;
+    width: 600px;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 35px
+}
+
+.favoriteBtn p {
+    margin-left: 10px;
+}
+
+.favoriteImg {
+    max-height: 100%; 
+    max-width: auto; 
+}
+
+.favoriteCities {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.currentCityDisplay {
+    font-family: 'Risque';
+    font-size: 50px;
+    color: black;
+}
+
+.offcanvas-bg {
+    background-color: #B6EDFF;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.8em;
+  color: black;
+}
