@@ -17,24 +17,4 @@ To use the Weather App:
 3. Optionally, click the "Favorite" button to save the city to your favorites list.
 4. To view weather information for your favorite cities, click the "Favorite Places" button.
 
-# Technologies Used
-- HTML
-- CSS (Bootstrap)
-- JavaScript
-- OpenWeather API
 
-
-
-# Peer Reviewers:  
----------------------
-
-
----------------------
-
-# Prototype:  
-
-https://www.figma.com/file/eJvMChLnsEE8XLGNGl43rG/Weather-App?type=design&node-id=0-1&mode=design&t=iIOaM1JlQqQVehDF-0
-
-# Github:  
-
-https://github.com/Dinomyt/Weather-App/
