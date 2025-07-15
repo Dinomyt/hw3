@@ -1,6 +1,6 @@
 # Weather App - Neng Lao
 # Overview
-This Weather App is a simple web application that allows users to check the current weather and forecast for their favorite cities. It utilizes the OpenWeather API to fetch weather data and provides a user-friendly interface for displaying weather information. The original figma design was created by Johnny Pham and the goal of the project is to be able to build other people's design.
+This Weather App is a simple web application that allows users to check the current weather and forecast for their favorite cities. It utilizes the OpenWeather API to fetch weather data and provides a user-friendly interface for displaying weather information. 
 
 # Features
 - Front-end Design: The application has a clean and intuitive user interface designed with HTML, CSS, and Bootstrap framework.
