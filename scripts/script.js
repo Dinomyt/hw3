@@ -126,7 +126,10 @@ function updateWeatherImage(iconCode, imageElementId) {
 }
 
 function searchButtonHandler() {
-  const newCity = cityInput.value.trim(); // Get the value from the input field and remove leading/trailing spaces
+  const newCity = cityInput.value.trim(); 
+  if (!isValidCityName(newCity)) {
+    return;
+  }
   if (newCity !== "") {
     city = newCity; // Update the city variable
     apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${temperatureUnits[choice]}`;
@@ -243,6 +246,23 @@ function populateFavoriteCities() {
       favoriteCitiesList.appendChild(li);
     });
   }
+}
+
+function isValidCityName(cityName) {
+    const trimmed = cityName.trim();
+    const validPattern = /^[a-zA-Z\s]+$/;
+
+    if (trimmed.length < 2) {
+        alert("City name must be at least 2 characters long.");
+        return false;
+    }
+
+    if (!validPattern.test(trimmed)) {
+        alert("City name can only contain letters and spaces.");
+        return false;
+    }
+
+    return true;
 }
 
 // -------------------------------------------------------------------------------------End of-------------------------------------------------------------------------------------------- //
