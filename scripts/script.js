@@ -55,10 +55,10 @@ async function getForecast() {
 
     // Display 5-day forecastz
     console.log(JSON.stringify(data));
-    document.getElementById('dayOne').textContent = getDayOfWeek(data.list[1].dt);
-    document.getElementById('dayOneDate').textContent = getFormattedDate(data.list[1].dt);
-    document.getElementById('dayOneTemp').innerHTML = `${Math.round(data.list[1].main.temp)}&deg;`;
-    updateWeatherImage(data.list[1].weather[0].icon, 'dayOneImg');
+    document.getElementById('dayOne').textContent = getDayOfWeek(data.list[0].dt);
+    document.getElementById('dayOneDate').textContent = getFormattedDate(data.list[0].dt);
+    document.getElementById('dayOneTemp').innerHTML = `${Math.round(data.list[0].main.temp)}&deg;`;
+    updateWeatherImage(data.list[0].weather[0].icon, 'dayOneImg');
 
     document.getElementById('dayTwo').textContent = getDayOfWeek(data.list[8].dt);
     document.getElementById('dayTwoDate').textContent = getFormattedDate(data.list[8].dt);
